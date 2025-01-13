@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* font-family: "Maven Pro", serif !important; */
+    font-family: "Sulphur Point", serif !important;
+}
+
+/* Banner Section */
+
+.subscribe-hamburger{
+    background-color: #950014;
+    height: 60px;
+    width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.subscribe-hamburger i{
+    color: white;
+    
+    font-size: 25px;
+}
+
+.banner-title-container{
+    background-color: #eff0f1;
+    border-top: 1px solid rgba(211, 211, 211, 0.623);
+}
+
+/* Banner description section */
+
+.banner-description{
+    font-size: 18px;
+}
+
+/* Table data Section */
+
+.table-head{
+    background-color: grey;
+    color: white;
+    height: 60px;
+    padding: 5px 10px;
+}
+
+.table-data{
+    border-bottom: 1px dotted lightgray;
+    padding: 5px 10px;
+}
+
+/* More about section */
+
+.more-about-btn button{
+    width: 100%;
+    padding: 15px 30px;
+    background-color: #313639;
+    color: white;
+    border: none;
+    border-radius: 4px;
+}
+
+.more-about-icon li{
+    background-color: #313639;
+    width: 54px;
+    height: 54px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+}
+
+
+.more-about-icon li i{
+    color: white;
+    font-size: 22px;
+}
+
+.more-about-icon{
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-top: 30px; 
+}
+
+.more-about-data div{
+    border-right: 1px solid lightgray;
+    padding: 5px 10px;
+}
+
+.more-about-bottom-container{
+    border-top: 1px solid lightgray;
+}
+
+/* Footer Section */
+
+.model-footer-btn button{
+    border: none;
+    padding: 15px 30px;
+    background-color: #313639;
+    color: #eff0f1;
+}
+
+.model-footer-border{
+    border-bottom: 1px solid lightgrey;
+}
+
+/* Responsive Section */
+
+@media all and (max-width:600px){
+    .table-data-main-container{
+       display: grid;
+       grid-template-columns: 150px 300px 200px 150px;
+       overflow-x: scroll;
+    }
+
+    .table-data{
+        height: 80px;
+    }
+
+    .table-head{
+        height: 100px;
+    }
+
+    .more-about-data div{
+        border: none;
+        padding: 5px 0px;
+    }
+
+    .more-about-icon li{
+        width: 45px;
+        height: 45px;      
+    }
+    
+    
+    .more-about-icon li i{
+        font-size: 18px;
+    }
+
+    .banner-description{
+        font-size: 15px;
+    }
+
+    .model-footer-btn button{      
+        padding: 10px 20px;
+        font-size: 13px;      
+    }
+
+
+}

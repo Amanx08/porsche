@@ -1,0 +1,216 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Libre Franklin", sans-serif !important;
+}
+
+/* Navbar Section */
+
+.menu-btn:hover{
+    background-color: #b9b9bb59;  
+    border-radius: 3px;
+}
+
+.menu-btn{
+    width: 80px;
+    height: 30px;
+}
+
+.navbar-icon-container div:hover{
+    background-color: #b9b9bb59;
+    border-radius: 3px;
+}
+
+.navbar-icon-container div{
+    padding: 4px 8px;
+}
+
+
+/* Banner Section */
+
+.banner-heading{
+    font-weight: 600;
+    width: 50%;
+    font-size: 45px;   
+}
+
+.banner-data:hover{
+    background-color: #b9b9bb59;
+    width: 260px;
+    border-radius: 3px;
+}
+
+.banner-data{
+    padding: 5px;
+}
+
+.banner-btn button{
+    padding: 15px 30px;
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 3px;
+}
+
+.banner-btn button:hover{
+    background-color: #535457;
+}
+
+/* Card Section */
+
+.card-border{
+    border-bottom: 1px solid lightgrey;
+    padding-bottom: 30px;
+}
+
+.card-btn select{
+    padding: 12px 24px;
+    border: 2px solid grey;
+    border-radius: 3px;
+    width: 100%;
+    background-color: #EEEFF2;
+    cursor: pointer;
+}
+
+.card-btn button{
+    padding: 12px 24px;
+    border: 2px solid grey;
+    border-radius: 3px;
+    width: 100%;
+    background-color: #EEEFF2;
+    cursor: not-allowed;
+}
+
+
+.compare-model-btn button{
+    padding: 12px 24px;
+    background-color: #EEEFF2;
+    border: 2px solid black;
+    border-radius: 3px;
+}
+
+.compare-model-btn button:hover{
+    background-color: #b9b9bb59;
+    
+}
+
+.main-bg-color{
+    background-color: #EEEFF2;
+}
+
+.cayman-model-img{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-bg-color{
+    background-color: white;
+    border-radius: 10px;
+    width: 410px;
+    margin-top: 10px;
+}
+
+.car-sidebar-img{
+    width: 90px;
+}
+
+.checkbox-button{
+    padding: 10px;
+}
+
+.petrol-btn{
+    border: none;
+    padding: 2px 4px;
+    font-size: 12px;
+    border-radius: 2px;
+}
+
+.card-text{
+    font-size: 12px;
+}
+
+.card-bottom-text{
+    font-size: 11px;
+}
+
+.card-bottom-btn button{
+    padding: 15px 30px;
+    width: 100%;
+    background-color: black;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-bottom-btn button:hover{
+    background-color: #535457;
+}
+
+.card-bg-color:hover{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.tubro-img{
+    height: 30px;
+}
+
+.turbo-bg-color{
+    background-color: #d7d7da59; 
+    border-radius: 4px;
+}
+
+.turbo-bg-color:hover{
+    background-color: #b9b9bb59;
+    cursor: pointer;
+}
+
+.pagination-btn button{
+    height: 60px;
+    width: 100px;
+    border: 2px solid lightgray;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #EEEFF2;
+}
+
+.pagination-btn button:hover{
+    border: 2px solid black;
+}
+
+
+.pagination-container{
+    border-top: 2px solid lightgray;
+}
+
+
+/* Responsive Section */
+
+@media all and (max-width:600px){
+    .banner-btn{
+        display: none;
+    }
+
+    .compare-model-btn button{
+        padding: 10px 12px;
+        font-size: 12px;
+    }
+
+    .banner-heading{
+        width: 100%;
+    }
+
+    .footer-content p{
+        font-size: 12px;
+    }
+}

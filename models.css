@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Libre Franklin", sans-serif !important;
+}
+
+
+/* Page Title Section */
+
+.page-title-container{
+    background-color: #eff0f1;
+}
+
+/* Model Overview Section */
+
+.model-overview-heading h2{
+    font-weight: 700;
+}
+
+.model-btn button{
+    background-color: white;
+    color: black;
+    padding: 10px 20px; 
+    border: 1px solid lightgray;
+    width: 80%;
+    text-align: center;
+
+}
+
+.model-btn button:hover{
+    color: rgb(182, 15, 15);
+    border: 1px solid rgb(182, 15, 15);
+}
+
+
+.model-main-container{
+    border-right: 1px solid lightgray;
+}
+
+.model-responsive-button{
+    display: none;
+}
+
+
+/* Consumption and Emissions Heading */
+
+.consumption-main-heading h2{
+    font-weight: 700;
+}
+
+.icon-container{
+    height: 40px;
+    width: 40px;
+    border: 1px solid black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.km-container{
+    font-size: 9px;
+}
+
+
+/* More About Section */
+
+.more-about-main-heading h2{
+    font-weight: 700;
+}
+
+.more-about-btn button{
+    width: 100%;
+    padding: 15px 30px;
+    background-color: #313639;
+    color: white;
+    border: none;
+    border-radius: 4px;
+}
+
+.more-about-icon li{
+    background-color: #313639;
+    width: 54px;
+    height: 54px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+}
+
+
+.more-about-icon li i{
+    color: white;
+    font-size: 22px;
+}
+
+.more-about-icon{
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-top: 30px; 
+}
+
+.more-about-data div{
+    border-right: 1px solid lightgray;
+    padding-right: 14px;
+}
+
+.more-about-content-container{
+    border-top: 1px solid lightgray;
+    padding-top: 25px;
+}
+
+
+/* Footer Section */
+
+.model-footer-btn button{
+    border: none;
+    padding: 15px 30px;
+    background-color: #313639;
+    color: #eff0f1;
+}
+
+.model-footer-border{
+    border-bottom: 1px solid lightgrey;
+}
+
+/* Responsive Section */
+
+@media all and (max-width:600px){
+    .model-main-container{
+        display: none;
+    }
+
+    .filter-button{
+        padding: 15px 30px;
+        width: 100%;
+        background-color: #313639;
+        color: white;
+        border: none;
+    }
+
+    .outline-button-718{
+        border: 1px solid #313639;
+        background-color: white;
+        padding: 15px 30px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+
+    .model-responsive-button{
+        display: block;
+    }
+
+    .consumption-content{
+        font-size: 12px;
+    }
+
+    .more-about-data p{
+        font-size: 13px;
+    }
+
+    .footer-content p{
+        font-size: 12px;
+    }
+
+    .model-footer-btn button{
+        padding: 10px 12px; 
+        font-size: 12px;      
+    }
+
+    .more-about-icon li{
+        width: 45px;
+        height: 45px;       
+    }
+    
+    
+    .more-about-icon li i{
+        font-size: 19px;
+    }
+    
+
+    
+}

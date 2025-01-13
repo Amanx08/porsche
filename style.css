@@ -1,0 +1,458 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* font-family: "Maven Pro", serif !important; */
+    font-family: "Sulphur Point", serif !important;
+}
+
+a{
+    text-decoration: none !important;
+}
+
+    
+/* header section */
+video{
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
+    background-image: linear-gradient(black, black);
+}
+
+.card-gradient{
+    background-image: linear-gradient(black, black);
+}
+
+.banner-video{
+    height: 100vh !important;
+    width: 100%;
+    object-fit: cover;
+    top:30px;
+}
+
+.banner-content{
+    height: 89vh;
+    display: flex;
+    /* align-items: flex-start; */
+    justify-content: flex-end;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.banner-content button{
+    padding: 15px 25px;
+    border: 2px solid white;
+    border-radius: 4px;
+    font-size: 15px;
+    color: white;
+    background-color: transparent;   
+}
+
+.banner-content p{
+    align-items: center !important;
+}
+
+button{
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.banner-content button:hover{
+    background-color: rgba(148, 149, 152, 0.18);
+    border-color: rgb(136, 137, 140);
+}
+
+.banner-content h2{
+    color: white;
+    font-size: clamp(100px,5vw,120px);
+    font-weight: 600;
+    line-height: 1;
+}
+
+.banner-des{
+    font-size: 12px;
+    color: #6b6d70 !important;
+    margin: 0 auto;
+}
+
+.sidebar-718{
+    height: 20px;
+}
+
+.sidebar-btn button{
+    margin-top: 20px;
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 2px;
+    border-radius: 3px;
+}
+
+/* Main Side Bar */
+
+.main-sidebar-container{
+    width: 100%;
+    height: 100vh;
+    background: rgba(0, 0, 0, .5);
+    position: fixed;
+    top: 0;
+    z-index: 9999;
+}
+
+.sidebar-icon i{
+    color: black;
+}
+
+
+
+.side-bar{
+    background-color: white;
+}
+
+.accordion-button{
+    text-align: center;
+}
+
+.sidebar-maincontainer{
+    width: 30vw;
+    padding: 80px 35px;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* background-color: white; */
+}
+
+.item-hover:hover{
+    background-color: rgba(148, 149, 152, 0.18) !important;
+    cursor: pointer !important;
+}
+/* card section */
+.model_container{
+    text-align: center;
+    width: 100%;
+}
+.right-arrow{
+    height: 25px;
+    width: 25px;        
+}
+
+.main-container{
+    margin-top: 70px;
+}
+
+
+.card-img-overlay-am{
+    position: absolute;
+    /* top: 0; */
+    right: 0;
+    bottom: -10px;
+    left: 0;
+    padding: var(--bs-card-img-overlay-padding);
+    border-radius: var(--bs-card-inner-border-radius);
+}
+
+.card-content{
+    margin-top: 10px;
+    font-size: 12px;
+    color: #6b6d70;
+}
+.card-img{
+    transition:transform 0.3s ease-in-out; 
+}
+.card-img:hover {
+    transform: scale(1.05);
+    /* transition: 0.5s; */
+}
+
+/* Model Section */
+
+.model-heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.model-heading h1{
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.model-img{
+    height: 800px;
+    background-size: cover;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;  
+}
+
+
+
+.model-img-1{
+    background-image: linear-gradient(transparent, transparent, rgb(24, 23, 23)), url(./img1/BCE0DDD35E7E4D9CA16F7DA7480B8E92_EDD06986A16144F2B898A6A0E0034E4C_BX24I3HOX0040_desktop.jpg);
+}
+
+.model-img-2{
+    background-image: linear-gradient(transparent, transparent, rgb(24, 23, 23)), url(./img1/D9863281BEC14473AE2EAD15A724142B_E84A5DFE8F4347BABEEEF9C28F9D4F40_Berlin---Desktop.jpg);
+}
+
+.model-img-3{
+    background-image: linear-gradient(transparent, transparent, rgb(24, 23, 23)), url(./img1/AD24345646AA45B7B04D01140FD13E64_86464EA1875F41BA87751D7BB8A9F8F7_NEW-Panamera---Desktop.jpg);
+}
+
+.model-img-4{
+    background-image: linear-gradient(transparent, transparent, rgb(24, 23, 23)), url(./img1/DE9B7F8D1C6948F1AF6B4114B75C3F3A_21F9585F38A6419A9C461B4EBFFB28AD_Nevada---Desktop.jpg);
+}
+
+.img-1{
+    height: 30px;
+}
+
+.button-img button{
+    margin-top: 20px;
+    background-color: rgb(90, 88, 88);
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    font-size: 11px;
+    border-radius: 3px;
+}
+
+.build718{
+    width: 100%;
+    padding: 17px 34px;
+    font-size: 15px;
+    border-radius: 3px;
+    border: none;
+    display: flex;
+    justify-content: center;
+}
+
+.show718{
+    width: 100%;
+    padding: 17px 34px;
+    font-size: 15px;
+    border-radius: 3px;
+    text-wrap: nowrap;
+    background-color: transparent;
+    border: solid 1px white;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.build718:hover{
+    background-color: rgb(175, 176, 179);
+    cursor: pointer;
+   
+}
+
+.show718:hover{
+    background-color: rgba(148, 149, 152, 0.18);
+    cursor: pointer;
+    border-color: #6b6d70;
+}
+
+.car-info{
+    color: white;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+/* Story Section */
+
+.story-heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.story-heading h1{
+    font-size: 40px;
+    font-weight: 600;
+}
+
+/* Discovery Section */
+
+.discover-heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.discover-heading h1{
+    font-size: 40px;
+    font-weight: 600;
+}
+
+/* Footer Section */
+
+.sci{
+    list-style: none;
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+  
+}
+
+ul, ol{
+    list-style: none;  padding-left: 0 !important;
+}
+
+.footer-bg{
+    background: black;
+    /* margin-top: 80px; */
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 15px;
+}
+
+.sec h4{
+    color: #fff;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+li a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-btn{
+    width: 100%;
+    border: none;
+    border-radius: 4px;
+    padding: 15px 0;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.footer-btn:hover{
+    background-color: rgb(175, 176, 179);
+    cursor: pointer;
+}
+
+.footer-wrapper{
+    border-bottom: 1px solid lightgrey;
+}
+
+.sci li{
+    background-color: white;
+    width: 54px;
+    height: 54px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+}
+
+.sci li i{
+    color: black;
+    font-size: 22px;
+}
+
+.sci li:hover{
+    background-color: rgb(175, 176, 179);
+    cursor: pointer;
+}
+
+.footer-content p span{
+    text-decoration: underline;
+    color: #fff;
+}
+
+
+/* Responsive */
+
+@media all and (max-width:600px) {
+    .banner-content h2{
+        font-size: 50px;
+    }
+
+    .banner-content button{
+        padding: 10px 20px;
+        font-size: 13px;
+    }
+
+    .card-display{
+        display: none;
+    }
+
+    .header-logo{
+        width: 150px;
+    }
+
+    .display-menu{
+        display: none;
+    }
+    
+    .sec-quicklinks{
+        margin-top: 10px;
+    }
+
+    .discover-heading h1{
+        font-size: 30px;
+    }
+
+    .discover-heading{
+        margin-top: 50px;
+        margin-bottom: 25px;
+    }
+
+    .story-heading h1{
+        font-size: 30px;
+    }
+
+    .story-heading{
+        margin-top: 50px;
+        margin-bottom: 25px;
+    }
+
+    .model-img{
+        height: 500px;
+    }
+
+    .model-heading h1{
+        font-size: 30px;
+    }
+
+    .model-heading{
+        margin-top: 50px;
+        margin-bottom: 25px;
+    }
+
+    .img-1{
+        height: 20px;
+    }
+
+    .car-info{
+        font-size: 14px;
+    }
+
+    .build718{
+        font-size: 12px;
+        padding: 14px 0px;
+    }
+
+    .show718{
+        font-size: 12px;
+        padding: 14px 0px;
+    }
+
+    
+}

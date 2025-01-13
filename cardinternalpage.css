@@ -1,0 +1,422 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Libre Franklin", sans-serif !important;
+}
+
+/* Header Section */
+
+.section-spacing{
+    padding: 80px 0px;
+}
+
+.header-logo{
+    color: black;
+}
+
+.banner-img{
+    background-image: url(./img1/911dark.svg);
+    height: 18vh;
+    /* background-size: cover; */
+    background-repeat: no-repeat;
+    background-position: center;   
+}
+
+.banner-main-container{
+    height: 50vh;
+}
+
+.banner-car-img{
+    top: 135px;
+}
+
+.space-container{
+    height: 100px;
+}
+
+.tab-button button{
+    background-color: lightgray;
+    color: black;
+    border: none;
+    padding: 5px 10px;
+    font-size: 13px;
+    border-radius: 3px;
+}
+
+.color-btn{
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 14px;
+    border-radius: 4px;
+}
+
+.outline-btn{
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    padding: 15px 30px;
+    font-size: 14px;
+    border-radius: 4px;
+}
+
+.tab-dec{
+    font-size: 13px;
+    color: grey;
+}
+
+/* Car detail Section */
+
+.card-detail-dec{
+    font-size: 15px;
+    color: grey;
+}
+
+.car-detail-heading{
+    font-size: 70px;
+}
+
+.car-detail-subheading{
+    font-size: 23px;
+    font-weight: 500;
+}
+
+.car-detail-title{
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.car-detail-img{
+    height: 400px;
+}
+
+.card-detail-bottom-btn button{
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    padding: 15px 30px;
+    font-size: 15px;
+    border-radius: 4px;
+}
+
+/* 911 Car Section */
+
+.car-main-heading{
+    height: 50px;
+}
+
+.top-img-911{
+    background-image: url(./img1/963655E4CCB246C38143117192CBEC4D_B8BFA8556837424FAC527CE61C40A541_CZ25W12OX0001-911-carrera-gts-side-with-man.jpg);
+    height: 600px;
+    background-size: cover;
+    border-radius: 15px;
+    margin-top: 3rem;
+}
+
+.middle-img-911{
+    background-image: url(./img1/888989E42C814B56A68BA563D81DE0A3_BC0C03C58AF840BA8C967DC7531EECBF_CZ25W12OD0001-911-carrera-rear-with-man.jpg);
+    height: 500px;
+    /* width: 70%; */
+    background-size: cover;
+    border-radius: 15px;
+}
+
+.dec-911{
+    width: 50%;
+}
+
+.bottom-img-911{
+    background-image: url(./img1/82598EE8964C4EA5B6F2C51BE00DB580_7AB084761830470397918B4F1A502CDE_CZ25W12OD0002-911-carrera-side-with-man.jpg);
+    height: 500px;
+    width: 50%;
+    background-size: cover;
+    border-radius: 15px;
+    margin-top: 6rem;
+    margin-left: 5rem;
+}
+
+/* Technology Section */
+
+.technology-main-img{
+    background-image: url(./img1/E968BE2F96114F61B728F780DA654644_9C6FC32B885B417CAFB1B1B5AF7253F4_CZ25W12OX0003-911-carrera-gts-driving-front.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+}
+
+.technology-dec{
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+/* Video Section */
+
+.video-container video{
+    border-radius: 20px;
+    height: 90vh;
+}
+
+/* Car Detail Card Section */
+
+.card-bg-color{
+    background-color: white;
+    border-radius: 10px;
+    width: 410px;
+    margin-top: 10px;
+}
+
+.petrol-btn{
+    border: none;
+    padding: 2px 4px;
+    font-size: 12px;
+    border-radius: 2px;
+}
+
+.card-text{
+    font-size: 12px;
+}
+
+.card-bottom-text{
+    font-size: 11px;
+}
+
+.card-bottom-btn button{
+    padding: 15px 30px;
+    width: 100%;
+    background-color: black;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cayman-model-img{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.car-detail-card-bg-color{
+    background-color: #eeeff2;
+    border-radius: 10px;
+}
+
+.car-detail-card-bg-border{
+    border: 1px solid lightgray;
+    border-radius: 10px;
+}
+
+.car-card-data p{
+    font-size: 12px;
+    color: grey;
+}
+
+.card-outline-button{
+    border: 2px solid black !important;
+    background-color: #eeeff2 !important;
+    color: black !important;
+}
+
+.card-outline-first-button{
+    border: 2px solid black !important;
+    background-color: #fff !important;
+    color: black !important;
+}
+
+.card-detail-bottom-button{
+    border: 2px solid black;
+    padding: 13px 26px;
+    border-radius: 4px;
+    background-color: #fff;
+}
+
+.card-bottom-description{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+/* Configure Your Porsche Section */
+
+.configure-car-image img{
+    width: 100%;
+    height:400px;
+    background-size: cover;
+}
+
+.exterior-separate-color-1{
+    
+    background-color: aqua;
+}
+
+.color-container{
+    height: 60px;
+    width: 60px;
+}
+
+.exterior-separate-color-2{
+    background-color: black;
+}
+
+.exterior-separate-color-3{
+    background-color: blue;
+}
+
+.exterior-separate-color-4{
+    background-color: teal;
+}
+
+.exterior-separate-color-5{
+    background-color: slategray;
+}
+
+.exterior-separate-color-6{
+    background-color: tomato;
+}
+
+.color-combination-container-1{
+    height: 60px;
+    width: 40px;
+    background-color: aquamarine;
+}
+
+.color-combination-container-2{
+    height: 60px;
+    width: 20px;
+    background-color: black;
+}
+
+.color-combination-container-3{
+    height: 60px;
+    width: 40px;
+    background-color: darkblue;
+}
+
+.color-combination-container-4{
+    height: 60px;
+    width: 20px;
+    background-color: black;
+}
+
+.color-combination-container-5{
+    height: 60px;
+    width: 40px;
+    background-color: brown;
+}
+
+.color-combination-container-6{
+    height: 60px;
+    width: 20px;
+    background-color: black;
+}
+
+
+@media all and (max-width:600px){
+    .car-detail-container{
+        flex-direction: column;
+    }
+
+    .car-detail-img{
+        height: 200px;
+    }
+
+    .car-detail-heading{
+        font-size: 35px;
+    }
+    
+    .car-detail-subheading{
+        font-size: 13px;    
+    }
+    
+    .car-detail-title{
+        font-size: 14px;
+    }
+
+    .card-detail-dec{
+        font-size: 12px;
+        color: grey;
+    }
+
+    .tab-dec{
+        font-size: 12px;
+        color: grey;
+    }
+
+    .configure-car-image img{
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+    }
+
+    .section-spacing{
+        padding: 8% 4%;
+    }
+
+    .card-bottom-btn button{
+        padding: 10px 12px;
+        font-size: 12px;
+    }
+
+    .card-detail-bottom-button{
+        padding: 10px 12px;
+        font-size: 12px;
+    }
+
+    .card-bottom-description{
+        font-size: 15px;
+        font-weight: 500;
+    }
+
+    .video-container video{
+        border-radius: 11px;
+    }
+
+    .bottom-img-911{        
+        display: none;
+    }
+
+    .middle-img-911{
+        display: none;
+    }
+
+    .top-img-911{
+        height: 190px;
+        background-size: cover;
+        border-radius: 11px;
+        margin-top: 1.5rem;
+    }
+
+    .banner-main-container{
+        height: 25vh;
+    }
+
+    .color-btn{
+        padding: 10px 12px;
+        font-size: 12px;  
+    }
+    
+    .outline-btn{
+        padding: 10px 12px;
+        font-size: 12px; 
+    }
+
+    .tab-button button{
+        font-size: 10px;   
+    }
+
+    .footer-content p{
+        font-size: 12px;
+    }
+
+    
+}
+
+
+

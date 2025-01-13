@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* font-family: "Maven Pro", serif !important; */
+    font-family: "Sulphur Point", serif !important;
+}
+
+/* Banner Section */
+
+.subscribe-hamburger{
+    background-color: #950014;
+    height: 60px;
+    width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.subscribe-hamburger i{
+    color: white;
+    
+    font-size: 25px;
+}
+
+.banner-title-container{
+    background-color: #eff0f1;
+    border-top: 1px solid rgba(211, 211, 211, 0.623);
+}
+
+.form-container{
+    border: 1px solid lightgray;
+    padding: 10px;
+}
+
+.form-content{
+    font-size: 12px;
+}
+
+.input-container{
+    width: 200px;
+}
+
+/* .abbr-container{
+    border: 1px solid lightgray;
+    padding: 4px 8px;
+} */
+
+.form-button button{
+    border: 1px solid black;
+    background-color: white;
+    padding: 2px 6px;
+    font-size: 12px;
+}
+
+/* footer section */
+
+.more-about-icon li{
+    background-color: #313639;
+    width: 54px;
+    height: 54px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+}
+
+
+.more-about-icon li i{
+    color: white;
+    font-size: 22px;
+}
+
+.more-about-icon{
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-top: 30px; 
+}
+
+.more-about-btn button{
+    width: 100%;
+    padding: 15px 30px;
+    background-color: #313639;
+    color: white;
+    border: none;
+    border-radius: 4px;
+}
+
+.model-footer-btn button{
+    border: none;
+    padding: 15px 30px;
+    background-color: #313639;
+    color: #eff0f1;
+}
+
+.footer-border{
+    border-top: 1px solid lightgrey;
+}
+
+@media all and (max-width:600px){
+    .model-footer-btn button{      
+        padding: 10px 12px;
+        font-size: 12px;       
+    }
+
+    .more-about-icon li{
+        width: 45px;
+        height: 45px;        
+    }
+    
+    
+    .more-about-icon li i{
+        font-size: 19px;
+    }
+}
