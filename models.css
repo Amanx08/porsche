@@ -130,6 +130,10 @@ body {
     border-bottom: 1px solid lightgrey;
 }
 
+.footer-bg{
+    background-color: black;
+}
+
 /* Responsive Section */
 
 @media all and (max-width:600px){

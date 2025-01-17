@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* font-family: "Maven Pro", serif !important; */
+    font-family: "Sulphur Point", serif !important;
+}
+
+a{
+    text-decoration: none !important;
+}
+
+/* Banner Section */
+
+.banner-img-container{
+    background-image: url(./img1/D9CE4A613D6C480698EAD771348933F2_A5EC25634CFE440AB99F9DDD2FA32332_001-hero_21-9_5120x2194.jpg);
+    height: 80vh;
+    background-size: cover;
+}
+
+.banner-content-container{
+    height: 70vh;
+    display: flex;
+    align-items: end;
+    color: white;
+}
+
+.banner-content-container h1{
+    font-weight: 700;
+}
+
+/* Tab Section */
+
+.tab-container{
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+}
+
+.tab-content{
+    height: 70px;
+}
+
+.tab-container ul li{
+    list-style: none;
+}
+
+/* Porsche Deutschland Gmbh */
+
+.contact-img-container img{
+    height: 500px;
+    border-radius: 12px;
+    width: 600px;
+    background-size: cover;
+}
+
+.contact-image-bottom-data{
+    font-size: 12px;
+    color: grey;
+}
