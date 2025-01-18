@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* font-family: "Maven Pro", serif !important; */
+    font-family: "Sulphur Point", serif !important;
+}
+
+a{
+    text-decoration: none !important;
+}
+
+/* Banner Section */
+
+.banner-img-container{
+    background-image: url(./img1/D9CE4A613D6C480698EAD771348933F2_A5EC25634CFE440AB99F9DDD2FA32332_001-hero_21-9_5120x2194.jpg);
+    height: 80vh;
+    background-size: cover;
+}
+
+.banner-content-container{
+    height: 70vh;
+    display: flex;
+    align-items: end;
+    color: white;
+}
+
+.banner-content-container h1{
+    font-weight: 700;
+}
+
+/* Card Section */
+
+.contact-img-container img{
+    height: 500px;
+    border-radius: 12px;
+    width: 600px;
+    background-size: cover;
+}
+
+.contact-image-bottom-data{
+    font-size: 12px;
+    color: grey;
+}
+
+.subsidiaries-card-button button{
+    padding: 15px 30px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 4px;
+}
+
+/* Small Card Section */
+
+.small-card-img{
+    background-image: url(img1/1600x900.jpg);
+    width: 100%;
+    background-size: cover;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.small-card-img button{
+    padding: 10px 20px;
+    border: 1px solid white;
+    border-radius: 4px;
+    background-color: transparent;
+    color: white;
+    width: 60%;   
+}
+
+.small-card-content{
+    height: 100%;
+}
+
+/* Key Financial Section*/
+
+.key-financial-data{
+    border-right: 3px solid lightgray;
+}
+
+/* Sustainability Report Section */
+
+.first-container img{
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.right-image-main-container{
+    border-radius: 4px;
+}
+
+.right-image-button button{
+    padding: 15px 30px;
+    border: 2px solid black;
+    border-radius: 4px;
+    background-color: white;
+}
+
+.first-container{
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: #EEEFF2;
+}
+

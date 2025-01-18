@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* font-family: "Maven Pro", serif !important; */
+    font-family: "Sulphur Point", serif !important;
+}
+
+a{
+    text-decoration: none !important;
+}
+
+/* Banner Section */
+
+.banner-img-container{
+    background-image: url(./img1/banner-img.jpg);
+    height: 80vh;
+    background-size: cover;
+}
+
+/* Porsche at Glance Section */
+
+.subscribe-hamburger{
+    background-color: #950014;
+    height: 60px;
+    width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.subscribe-hamburger i{
+    color: white;
+    
+    font-size: 25px;
+}
+
+.banner-title-container{
+    background-color: #eff0f1;
+    border-top: 1px solid rgba(211, 211, 211, 0.623);
+}
+
+/* Card Section */
+
+.card-img-container{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.card-button-container{
+    padding: 15px 20px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+/* Consumption and Emissions Secton */
+
+.consumption-main-heading h2{
+    font-weight: 700;
+}
+
+.icon-container{
+    height: 40px;
+    width: 40px;
+    border: 1px solid black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.km-container{
+    font-size: 9px;
+}
+
+/* More About Section */
+
+.more-about-main-heading h2{
+    font-weight: 700;
+}
+
+.more-about-btn button{
+    width: 100%;
+    padding: 15px 30px;
+    background-color: #313639;
+    color: white;
+    border: none;
+    border-radius: 4px;
+}
+
+.more-about-icon li{
+    background-color: #313639;
+    width: 54px;
+    height: 54px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+}
+
+
+.more-about-icon li i{
+    color: white;
+    font-size: 22px;
+}
+
+.more-about-icon{
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-top: 30px; 
+}
+
+.more-about-data div{
+    border-right: 1px solid lightgray;
+    padding-right: 14px;
+}
+
+.more-about-content-container{
+    border-top: 1px solid lightgray;
+    padding-top: 25px;
+}
+
+/* Footer Section */
+
+.model-footer-btn button{
+    border: none;
+    padding: 15px 30px;
+    background-color: #313639;
+    color: #eff0f1;
+}
+
+.model-footer-border{
+    border-bottom: 1px solid lightgrey;
+}
+
+.footer-bg{
+    background-color: black;
+}

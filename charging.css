@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* font-family: "Maven Pro", serif !important; */
+    font-family: "Sulphur Point", serif !important;
+}
+
+a{
+    text-decoration: none !important;
+}
+
+
+/* Banner Section */
+
+.banner-img-container{
+    background-image: url(./img1/porsche-normal.jpg);
+    height: 80vh;
+    background-size: cover;
+    border-bottom: 2px solid white;
+}
+
+.banner-container{
+    height: 80vh;
+    color: white;
+    text-align: bottom;
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+}
+
+.banner-container p{
+    line-height: 1;
+}
+
+
+/* Divider Section */
+
+.divider-bg-color{
+    background-color: black;
+    height: 20vh;
+}
+
+/* Card Video Section */
+
+.card-video-content p{
+    line-height: 1.2;
+}
+
+.card-video-content h2{
+    font-weight: 900;
+}
+
+.card-video-bg-color{
+    background-color: rgb(230, 230, 230);
+}
+
+.card-video{
+    object-fit: cover;
+}
+
+.card-video-container{
+    overflow: hidden;
+}
+
+/* Destination Charging Section */
+
+.destination-img{
+    background-image: url(./img1/porsche-normal\ \(1\).jpg);
+    height: 100%;
+}
+
+.destination-bottom-heading h1{
+    font-weight: 800;
+}
+
+.destination-border{
+    border-bottom: 1px solid lightgray;
+}
+
+.charging-network-img img{
+    /* max-height: 800px; */
+    width: 100%;
+}
+
+.charging-network-container{
+    overflow: hidden;
+}
+
+/* Porsche destination Section */
+
+.story-heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.story-heading h1{
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.faq-container p{
+    line-height: 0.5;
+}
+
+.faq-container h1{
+    line-height: 1;
+    font-weight: 800;
+}
+
+.faq-container i{
+    font-size: 50px;
+}
+
+.faq-container:hover{
+    color: rgba(194, 4, 4, 0.863);
+}
+/* Footer Section */
+
+.footer-bg-color{
+    background-color: black;
+    height: 20vh;
+}

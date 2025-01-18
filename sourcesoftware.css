@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* font-family: "Maven Pro", serif !important; */
+    font-family: "Sulphur Point", serif !important;
+}
+
+a{
+    text-decoration: none !important;
+}
+
+/* Resource Section */
+
+.filled-porsche-button{
+    background-color: #eeeff2;
+    padding: 20px 15px;
+    border-radius: 8px;
+}
