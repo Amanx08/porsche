@@ -59,3 +59,91 @@ a{
     font-size: 12px;
     color: grey;
 }
+
+.subsidiaries-card-button button{
+    padding: 15px 30px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 4px;
+}
+
+/* Footer Section */
+
+.sci{
+    list-style: none;
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+  
+}
+
+ul, ol{
+    list-style: none;  padding-left: 0 !important;
+}
+
+.footer-bg{
+    background: black;
+    margin-top: 80px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 15px;
+}
+
+.sec h4{
+    color: #fff;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+li a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-btn{
+    width: 100%;
+    border: none;
+    border-radius: 4px;
+    padding: 15px 0;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.footer-btn:hover{
+    background-color: rgb(175, 176, 179);
+    cursor: pointer;
+}
+
+.footer-wrapper{
+    border-bottom: 1px solid lightgrey;
+}
+
+.sci li{
+    background-color: white;
+    width: 54px;
+    height: 54px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+}
+
+.sci li i{
+    color: black;
+    font-size: 22px;
+}
+
+.sci li:hover{
+    background-color: rgb(175, 176, 179);
+    cursor: pointer;
+}
+
+.footer-content p span{
+    text-decoration: underline;
+    color: #fff;
+}
+
