@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* font-family: "Maven Pro", serif !important; */
+    font-family: "Sulphur Point", serif !important;
+}
+
+a{
+    text-decoration: none !important;
+}
+
+
+/* Banner Section */
+
+.banner-img-container{
+    background-image: url(img1/forum\ banner\ img.jpg);
+    height: 80vh;
+    background-size: cover;
+}
+
+
+/* Global Partnership Council Section */
+
+.subscribe-hamburger{
+    background-color: #950014;
+    height: 60px;
+    width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.subscribe-hamburger i{
+    color: white; 
+    font-size: 25px;
+}
+
+.banner-title-container{
+    background-color: #eff0f1;
+    border-top: 1px solid rgba(211, 211, 211, 0.623);
+}
+
+/* Stories Section */
+
+.stories-main-container{
+    border-bottom: 1px solid lightgray;
+}
+
+/* Partners Section */
+
+
+.card-img-container{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.card-button-container{
+    padding: 15px 20px;
+    background-color: black;
+    color: white;
+    border: none;
+}

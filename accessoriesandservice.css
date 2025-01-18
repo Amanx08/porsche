@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Libre Franklin", sans-serif !important;
+}
+
+/* Banner Section */
+
+.banner-image {
+    background-image: url(./img1/bannerserviceimg.avif), linear-gradient(black, black);
+    height: 80vh;
+    background-size: cover;
+}
+
+.banner-description {
+    height: 65vh;
+    display: flex;
+    align-items: end;
+}
+
+.banner-description h1 {
+    color: white;
+}
+
+.tab-container {
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+}
+
+.tab-content {
+    height: 70px;
+}
